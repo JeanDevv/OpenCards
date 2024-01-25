@@ -6,5 +6,5 @@ from requests.views import home, pedidos, status_pedidos
 urlpatterns = [
     path('', home), # Home
     path('pedidos/', pedidos), #Pedidos
-    path('status_pedidos/', status_pedidos) #Status do Pedido
+    path('status_pedidos/', status_pedidos) #Status do Pedidos
 ]
